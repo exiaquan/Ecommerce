@@ -5,7 +5,6 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    {{asset('backend/')}}
 	<!--favicon-->
 	<link rel="icon" href="{{asset('backend/')}}assets/images/favicon-32x32.png" type="image/png" />
 	<!--plugins-->
@@ -34,7 +33,7 @@
 		<div class="sidebar-wrapper" data-simplebar="true">
 			<div class="sidebar-header">
 				<div>
-					<img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+					<img src="{{asset('backend/assets/images/logo-icon.png')}}" class="logo-icon" alt="logo icon">
 				</div>
 				<div>
 					<h4 class="logo-text">Rukada</h4>
@@ -549,7 +548,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-1.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-1.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Daisy Anderson <span class="msg-time float-end">5 sec
@@ -561,7 +560,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-2.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-2.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Althea Cabardo <span class="msg-time float-end">14
@@ -573,7 +572,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-3.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-3.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Oscar Garner <span class="msg-time float-end">8 min
@@ -585,7 +584,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-4.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-4.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Katherine Pechon <span class="msg-time float-end">15
@@ -597,7 +596,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-5.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-5.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Amelia Doe <span class="msg-time float-end">22 min
@@ -609,7 +608,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-6.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/ssets/images/avatars/avatar-6.png')}}a" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Cristina Jhons <span class="msg-time float-end">2 hrs
@@ -621,7 +620,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-7.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-7.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">James Caviness <span class="msg-time float-end">4 hrs
@@ -633,7 +632,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-8.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-8.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Peter Costanzo <span class="msg-time float-end">6 hrs
@@ -657,7 +656,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-10.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/'assets/images/avatars/avatar-10.png)}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Thomas Wheeler <span class="msg-time float-end">2 days
@@ -669,7 +668,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="assets/images/avatars/avatar-11.png" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-11.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Johnny Seitz <span class="msg-time float-end">5 days
@@ -688,7 +687,7 @@
 					</div>
 					<div class="user-box dropdown">
 						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							<img src="assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">
+							<img src="{{asset('backend/assets/images/avatars/avatar-2.png')}}" class="user-img" alt="user avatar">
 							<div class="user-info ps-3">
 								<p class="user-name mb-0">Pauline Seitz</p>
 								<p class="designattion mb-0">Web Designer</p>
@@ -1098,7 +1097,7 @@
 							 <ul class="list-group list-group-flush">
 								<li class="list-group-item bg-transparent">
 								  <div class="d-flex align-items-center">
-									<img src="assets/images/avatars/avatar-1.png" alt="user avatar" class="rounded-circle" width="55" height="55">
+									<img src="{{asset('backend/assets/images/avatars/avatar-1.png')}}" alt="user avatar" class="rounded-circle" width="55" height="55">
 								  <div class="ms-3">
 									<h6 class="mb-0">iPhone X <small class="ms-4">08.34 AM</small></h6>
 									<p class="mb-0 small-font">Sara Jhon : This is svery Nice phone in low budget.</p>
@@ -1114,7 +1113,7 @@
 								</li>
 								<li class="list-group-item bg-transparent">
 								  <div class="d-flex align-items-center">
-									<img src="assets/images/avatars/avatar-2.png" alt="user avatar" class="rounded-circle" width="55" height="55">
+									<img src="{{asset('backend/assets/images/avatars/avatar-2.png')}}" alt="user avatar" class="rounded-circle" width="55" height="55">
 								  <div class="ms-3">
 									<h6 class="mb-0">Air Pod <small class="ml-4">05.26 PM</small></h6>
 									<p class="mb-0 small-font">Danish Josh : The brand apple is original !</p>
@@ -1130,7 +1129,7 @@
 								</li>
 								<li class="list-group-item bg-transparent">
 								  <div class="d-flex align-items-center">
-									<img src="assets/images/avatars/avatar-3.png" alt="user avatar" class="rounded-circle" width="55" height="55">
+									<img src="{{asset('backend/assets/images/avatars/avatar-3.png')}}" alt="user avatar" class="rounded-circle" width="55" height="55">
 								  <div class="ms-3">
 									<h6 class="mb-0">Mackbook Pro <small class="ml-4">06.45 AM</small></h6>
 									<p class="mb-0 small-font">Jhon Doe : Excllent product and awsome quality</p>
@@ -1146,7 +1145,7 @@
 								</li>
 								<li class="list-group-item bg-transparent">
 								  <div class="d-flex align-items-center">
-									<img src="assets/images/avatars/avatar-4.png" alt="user avatar" class="rounded-circle" width="55" height="55">
+									<img src="{{asset('backend/assets/images/avatars/avatar-4.png')}}" alt="user avatar" class="rounded-circle" width="55" height="55">
 								  <div class="ms-3">
 									<h6 class="mb-0">Air Pod <small class="ml-4">08.34 AM</small></h6>
 									<p class="mb-0 small-font">Christine : The brand apple is original !</p>
@@ -1162,7 +1161,7 @@
 								</li>
 								<li class="list-group-item bg-transparent">
 								  <div class="d-flex align-items-center">
-									<img src="assets/images/avatars/avatar-7.png" alt="user avatar" class="rounded-circle" width="55" height="55">
+									<img src="{{asset('backend/assets/images/avatars/avatar-7.png')}}" alt="user avatar" class="rounded-circle" width="55" height="55">
 								  <div class="ms-3">
 									<h6 class="mb-0">Mackbook <small class="ml-4">08.34 AM</small></h6>
 									<p class="mb-0 small-font">Michle : The brand apple is original !</p>
@@ -1211,7 +1210,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/chair.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/chair.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">Light Blue Chair</h6>
@@ -1235,7 +1234,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/shoes.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/shoes.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">Green Sport Shoes</h6>
@@ -1259,7 +1258,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/headphones.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/headphones.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">Red Headphone 07</h6>
@@ -1283,7 +1282,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/idea.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/idea.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">Mini Laptop Device</h6>
@@ -1307,7 +1306,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/user-interface.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/user-interface.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">Purple Mobile Phone</h6>
@@ -1331,7 +1330,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/watch.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/watch.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">Smart Hand Watch</h6>
@@ -1355,7 +1354,7 @@
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="recent-product-img">
-														<img src="assets/images/icons/tshirt.png" alt="">
+														<img src="{{asset('backend/assets/images/icons/tshirt.png')}}" alt="">
 													</div>
 													<div class="ms-2">
 														<h6 class="mb-1 font-14">T-Shirt Blue</h6>
