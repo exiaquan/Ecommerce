@@ -18,7 +18,7 @@
 						<div class="menu-title">Dashboard</div>
 					</a>
 					<ul>
-						<li> <a href="index.html"><i class="bx bx-right-arrow-alt"></i>Default</a>
+						<li> <a href="{{route('dashboard')}}"><i class="bx bx-right-arrow-alt"></i>Default</a>
 						</li>
 						<li> <a href="dashboard-eCommerce.html"><i class="bx bx-right-arrow-alt"></i>eCommerce</a>
 						</li>

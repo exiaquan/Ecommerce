@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Demo\DemoController;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +20,14 @@ use App\Http\Controllers\Demo\DemoController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::controller(AdminController::class)->group(function(){
+    Route::get('/admin/logout','destroy')->name('admin.logout');
+    
+});
+
+
+
+// Admin all route
 Route::controller(DemoController::class)->group(function(){
     Route::get('/about','Index')->middleware('check');
     Route::get('/contact','ContactMetods')->name('contact.page');
