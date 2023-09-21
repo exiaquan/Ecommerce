@@ -53,13 +53,15 @@
 									</div>
 									<div class="form-body">
 										<form class="row g-3">
+										<form method="POST" action="{{ route('register') }}">
+        @csrf
 											<div class="col-sm-6">
-												<label for="inputFirstName" class="form-label">First Name</label>
-												<input type="email" class="form-control" id="inputFirstName" placeholder="Jhon">
+												<label for="Nama" class="form-label">Nama</label>
+												<input type="text" class="form-control" id="nama" maxlength="16"  style= "width:400px" placeholder="nama">
 											</div>
 											<div class="col-sm-6">
-												<label for="inputLastName" class="form-label">Last Name</label>
-												<input type="email" class="form-control" id="inputLastName" placeholder="Deo">
+												<label for="Username" class="form-label">Username</label>
+												<input type="text" class="form-control" id="username" maxlength="16"  style= "width:400px" placeholder="username">
 											</div>
 											<div class="col-12">
 												<label for="inputEmailAddress" class="form-label">Email Address</label>
@@ -72,13 +74,10 @@
 												</div>
 											</div>
 											<div class="col-12">
-												<label for="inputSelectCountry" class="form-label">Country</label>
-												<select class="form-select" id="inputSelectCountry" aria-label="Default select example">
-													<option selected>India</option>
-													<option value="1">United Kingdom</option>
-													<option value="2">America</option>
-													<option value="3">Dubai</option>
-												</select>
+												<label for="password_confirmation" class="form-label">Confirm Password</label>
+												<div class="input-group" id="show_hide_password">
+													<input type="password_confirmation" class="form-control border-end-0" id="password_confirmation" value="12345678" placeholder="Enter Confirmation Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+												</div>
 											</div>
 											<div class="col-12">
 												<div class="form-check form-switch">
