@@ -18,7 +18,7 @@
 	<link href="{{asset('backend/assets/css/bootstrap.min.css')}}" rel="stylesheet">
 	<link href="{{asset('backend/assets/css/app.css')}}" rel="stylesheet">
 	<link href="{{asset('backend/assets/css/icons.css')}}" rel="stylesheet">
-	<title>Rukada - Responsive Bootstrap 5 Admin Template</title>
+	<title>Ignis- Register</title>
 </head>
 
 <body class="bg-login">
@@ -57,38 +57,34 @@
         @csrf
 											<div class="col-sm-6">
 												<label for="Nama" class="form-label">Nama</label>
-												<input type="text" class="form-control" id="nama" maxlength="16"  style= "width:400px" placeholder="nama">
+												<input type="text" class="form-control" name="name" id="name" maxlength="16"  style= "width:400px" placeholder="nama">
 											</div>
 											<div class="col-sm-6">
 												<label for="Username" class="form-label">Username</label>
-												<input type="text" class="form-control" id="username" maxlength="16"  style= "width:400px" placeholder="username">
+												<input type="text" class="form-control" name="username" id="username" maxlength="16"  style= "width:400px" placeholder="username">
 											</div>
 											<div class="col-12">
 												<label for="inputEmailAddress" class="form-label">Email Address</label>
-												<input type="email" class="form-control" id="inputEmailAddress" placeholder="example@user.com">
+												<input type="email" class="form-control" name="email" id="email" placeholder="example@user.com">
 											</div>
 											<div class="col-12">
 												<label for="inputChoosePassword" class="form-label">Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678" placeholder="Enter Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input type="password" class="form-control border-end-0" name="password"  id="password" value="12345678" placeholder="Enter Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>
 											</div>
 											<div class="col-12">
 												<label for="password_confirmation" class="form-label">Confirm Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password_confirmation" class="form-control border-end-0" id="password_confirmation" value="12345678" placeholder="Enter Confirmation Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input type="password" class="form-control border-end-0" name="password_confirmation" id="password_confirmation" value="12345678" placeholder="Enter Confirmation Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>
 											</div>
 											<div class="col-12">
-												<div class="form-check form-switch">
-													<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
-													<label class="form-check-label" for="flexSwitchCheckChecked">I read and agree to Terms & Conditions</label>
-												</div>
+							
 											</div>
 											<div class="col-12">
 												<div class="d-grid">
 													<button type="submit" class="btn btn-primary"><i class='bx bx-user'></i>Sign up
-													{{ __('Register') }}
 												</button>
 												</div>
 											</div>
@@ -105,12 +101,12 @@
 	</div>
 	<!--end wrapper-->
 	<!-- Bootstrap JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="{{asset('backend/assets/js/bootstrap.bundle.min.js')}}"></script>
 	<!--plugins-->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
-	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
-	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	<script src="{{asset('backend/assets/js/jquery.min.js')}}"></script>
+	<script src="{{asset('backend/assets/plugins/simplebar/js/simplebar.min.js')}}"></script>
+	<script src="{{asset('backend/assets/plugins/metismenu/js/metisMenu.min.js')}}"></script>
+	<script src="{{asset('backend/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js')}}"></script>
 	<!--Password show & hide js -->
 	<script>
 		$(document).ready(function () {
@@ -129,7 +125,7 @@
 		});
 	</script>
 	<!--app JS-->
-	<script src="assets/js/app.js"></script>
+	<script src="{{asset('backen/assets/js/app.js')}}"></script>
 </body>
 
 </html>
