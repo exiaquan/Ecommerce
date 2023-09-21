@@ -38,7 +38,7 @@
 								<div class="border p-4 rounded">
 									<div class="text-center">
 										<h3 class="">Sign Up</h3>
-										<p>Already have an account? <a href="authentication-signin.html">Sign in here</a>
+										<p>Already have an account? <a href="{{route('login')}}">Sign in here</a>
 										</p>
 									</div>
 									<div class="d-grid">
