@@ -159,7 +159,7 @@
 										<a class="dropdown-item" href="javascript:;">
 											<div class="d-flex align-items-center">
 												<div class="user-online">
-													<img src="{{asset('backend/assets/images/avatars/avatar-2.png')}}" class="msg-avatar" alt="user avatar">
+													<img src="{{asset('backend/assets/images/avatars/avatar-26.png')}}" class="msg-avatar" alt="user avatar">
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Althea Cabardo <span class="msg-time float-end">14
